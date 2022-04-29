@@ -8,4 +8,8 @@ public class Order {
         this.amount = amount;
         this.delivery = delivery;
     }
+    int shipFeed = delivery.price;
+    public int total(){
+        return amount+ delivery.price;
+    }
 }
